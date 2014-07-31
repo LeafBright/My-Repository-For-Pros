@@ -1,0 +1,82 @@
+body {
+  background: #D1FFFF;
+}
+body h1{
+	font-size: 50px;
+	font-weight: bold;
+	border-bottom: 10px solid red;
+	text-align: center;
+  color: red;
+}
+
+.users {
+  table-layout: fixed;
+  width: 100%;
+  white-space: nowrap;
+}
+.users td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Column widths are based on these cells */
+.row-Skill-Number {
+  width: 10%;
+} 
+.row-Skill-name{
+  width: 40%;
+}
+.row-job {
+  width: 30%;
+}
+
+.resize {
+    width: 75px;
+    height: auto;
+    position: fixed;
+    bottom: 30px;
+    right: 5px;
+}
+
+.replace{
+    width: 75px;
+    height: auto;
+    position: fixed;
+    bottom: 30px;
+    right: 80px;
+}
+
+.remove{
+    width: 75px;
+    height: auto;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+
+.Selfie{
+    width: 200px;
+    height: auto;
+    position: fixed;
+    bottom: 30px;
+    left: 550px;
+}
+
+
+
+body header{
+  border-bottom: 8px dashed red;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 15px 0px;
+  padding: 15px 0px;
+  color: red;
+}
+
+table {
+  color: red;
+}
+
+

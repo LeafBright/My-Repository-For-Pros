@@ -1,0 +1,42 @@
+body {
+	background: #D1FFFF;
+}
+
+body h1{
+	font-size: 50px;
+	border-bottom: 8px solid #000;
+	text-align: center;
+	font-weight: bold;
+	margin: 15px 0px;
+}
+
+body p {
+	font-size: 30px;
+	text-align: center;
+}
+
+.resize {
+    width: 75px;
+    height: auto;
+    position: fixed;
+    bottom: 30px;
+    right: 5px;
+}
+
+.replace{
+    width: 75px;
+    height: auto;
+    position: fixed;
+    bottom: 30px;
+    right: 80px;
+
+
+}
+
+.remove{
+    width: 75px;
+    height: auto;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
